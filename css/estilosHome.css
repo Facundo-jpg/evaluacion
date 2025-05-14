@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 393px;
+    height: 854px;
+    background-color: antiquewhite;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    padding: 10px;
+    background-color: white;
+}
+
+.foto_user{
+    display: flex;
+    flex-direction: row;
+}
+
+.user{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding:10px;
+    background-color: black;
+}
+
