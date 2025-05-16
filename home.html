@@ -1,32 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/estilosHome.css">
-    <title>Document</title>
+    <title>Evaluacion</title>
 </head>
 <body>
-    <main class="container">
-        <section class="user">
-            <div class="foto_user">
-                <img src="/img/usuario.jpg" width="72px" height="96px">
-                <p>"Usuario"</p>
-            </div>
-            <img class="noti" src="/img/notificaciones.png" width="30px" height="30px">
-        </section>
+<main>
+    <header>
+        <div class="icon_user">
+            <img src="/img/usuario.png" alt="Usuario" class="icon">
+            <p>Hola, Javier</p>
+        </div>
+        <img src="/img/notificaciones.png">
+    </header>
 
-        <div class="buscador">
-            <input class="buscador" type="text" placeholder="Buscar...">
-            <img class="lupa" src="/img/magnifying-glass-solid.svg" width="30px" height="30px">
+    <div class="buscador">
+        <input type="text" placeholder="Busque su producto">
+        <button type="submit" class="btn">
+            <img src="/img/Search.png">
+        </button>
+    </div>
+
+    <section class="catalogo">
+
+        <div class="categoria">
+            <div class="circulo">
+                <img src="/img/iconIphone 1.png" alt="Iphone">
+            </div>
+            <button></button>
         </div>
 
-        <div class="categorias">
-            <div>
-                <img src="/img/ciencia.png" width="30px" height="30px">
-                <p>Ciencia</p>
+        <div class="categoria">
+            <div class="circulo">
+                <img src="/img/iconapplewatch 1.png" alt="Apple Watch">
             </div>
+            <p>Apple Watch</p>
         </div>
-    </main>
+
+        <div class="categoria">
+            <div class="circulo">
+                <img src="/img/iconairpod 1.png" alt="Airpods">
+            </div>
+            <p>Airpods</p>
+        </div>
+</main>
 </body>
 </html>
