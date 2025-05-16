@@ -109,6 +109,7 @@ main{
     border-radius: 50px;
     margin: 10px;
     color: white;
+    cursor: pointer;
 }
 
 .separador{
@@ -131,4 +132,99 @@ main{
     color: #5C5C5C;
     text-align: center;
     font-weight: bold;
+}
+
+.productos{
+    display: flex;
+    flex-direction: row; ;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.producto{
+    border-radius: 10px;
+    height: 140px;
+    width: 130px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    overflow: hidden;
+    box-shadow: 0px 0px 9px rgb(145, 144, 144);
+}
+
+.datosProductos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.detalleProducto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.estadoProducto{
+    color: #FF453A;
+    font-size: 10px;
+    padding-top: 5px;
+    margin: 5px;
+}
+
+.data_p{
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.precio_p{
+    color: rgb(138, 138, 138);
+    font-size: 11px;
+    margin: 5px;
+}
+
+.producto4{
+    background-color: white;
+    box-shadow: 0px 0px 9px rgb(145, 144, 144);
+    border-radius: 10px;
+    margin: 10px;
+    position:relative
+}
+
+.producto5{
+    background-color: white;
+    box-shadow: 0px 0px 9px rgb(145, 144, 144);
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.detalleProducto button{
+    width: 90px;
+    height: 25px;
+    background-color: #000000;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    margin: 10px;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+
+.logo_cart{
+    width: 15px;
+    height: 14px;
+    position: relative;
+    right: -5px;
+}
+
+.sub{
+    text-decoration: none;
 }
