@@ -192,15 +192,14 @@ main{
     background-color: white;
     box-shadow: 0px 0px 9px rgb(145, 144, 144);
     border-radius: 10px;
-    margin: 10px;
-    position:relative
+    margin: 15px;
 }
 
 .producto5{
     background-color: white;
     box-shadow: 0px 0px 9px rgb(145, 144, 144);
     border-radius: 10px;
-    margin: 10px;
+    margin: 15px;
 }
 
 .detalleProducto button{
@@ -227,4 +226,91 @@ main{
 
 .sub{
     text-decoration: none;
+}
+
+.verProductos button{
+    width: 90px;
+    height: 25px;
+    background-color: #000000;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    margin: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.verProductos button{
+    width: 150px;
+    height: 35px;
+    background-color: #000000;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    margin: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.barraIcons{
+    width: 85%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    background-color: #000000;
+    border-radius: 50px;
+    margin-top: 65px;
+}
+
+.iconos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.iconBarra{
+    width: 30px;
+    height: 30px;
+}
+
+.barraMain{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin: 15px;
+    background-color: transparent;
+    place-items: center;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.barraMain:hover {
+    background-color: #666;
+}
+
+.barraMain:active {
+    background-color: #888;
+    transform: scale(0.9);
 }
