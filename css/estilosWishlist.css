@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    display: block;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    place-content: center;
+    padding: 10px;
+}
+
+.titulo{
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+}
+
+main{
+    width: 100%;
+    max-width: 420px;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+}
+
+.productos{
+    width: 90%;
+    height: 70px;
+    display: flex;
+    flex-direction: row; ;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0px 0px 9px rgb(145, 144, 144); 
+    margin-top: 25px;
+    border-radius: 10px;
+}
+
+.producto{
+    border-radius: 10px;
+    height: 50px;
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+.detalle_producto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.nombre_producto{
+    font-size: 16px;
+    font-family: actor;
+    text-align: center;
+}
+
+.detalles_producto{
+    font-size: 12px;
+    color: rgb(138, 138, 138);
+    text-align: center;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.separador{
+    height: 35px;
+    width: 2px;
+    background-color: rgb(190, 190, 190);
+    margin: 0 15px;
+}
+
+.precio{
+    font-size: 14px;
+    color: rgb(138, 138, 138);
+    font-weight: bold;
+}
+
+.meGusta{
+    width: 20px;
+    height: 20px;
+    align-items: center;
+    gap: 12px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+}
