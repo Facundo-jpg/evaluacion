@@ -95,3 +95,13 @@ main{
     align-items: center;
     margin: 10px;
 }
+
+.categoria button{
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    margin: 10px;
+    color: white;
+}
