@@ -36,6 +36,8 @@ main{
     max-width: 420px;
     height: 100%;
     margin: auto;
+    display: flex;
+    flex-direction: column;
 }
 
 .buscador{
@@ -97,11 +99,36 @@ main{
 }
 
 .categoria button{
+    width: 71px;
+    height: 25px;
     background-color: #000000;
+    font-size: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 50px;
     margin: 10px;
     color: white;
+}
+
+.separador{
+    width: 100%;
+    place-items: center;
+}
+
+.barra{
+    width: 150px;
+    height: 1.88px;
+    background-color: #8080804D;
+    margin: 10px 0;
+}
+
+.separador span{
+    width: 73px;
+    height: 22px;
+    font-size: 16px;
+    font-family: actor;
+    color: #5C5C5C;
+    text-align: center;
+    font-weight: bold;
 }
